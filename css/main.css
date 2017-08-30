@@ -699,7 +699,6 @@ a:visited {
             transform: rotate(120deg); } }
 
 .container-rocket {
-  left: 50%;
   margin: 0 auto;
   position: relative; }
   .container-rocket .shadow {
@@ -899,6 +898,12 @@ a:visited {
           width: 20px;
           margin: 0 auto;
           display: block; }
+
+.title {
+  font-size: 4em; }
+
+.subtitle {
+  font-size: 2em; }
 
 /*! bulma.io v0.5.1 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
@@ -8218,7 +8223,6 @@ label.panel-block:hover {
 .round {
   height: 200px;
   width: 200px;
-  left: 35%;
   border-radius: 50%;
   position: relative; }
 
