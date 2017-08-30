@@ -6,7 +6,7 @@ var cp          = require('child_process');
 var ghPages     = require('gulp-gh-pages');
 
 gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
+  return gulp.src('./_site/**/*')
     .pipe(ghPages());
 });
 
